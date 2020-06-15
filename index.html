@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Story book gigglebox</title>
+  <meta name="author" content="Lucas Kern">
+  <meta name="description" content="Short story using ">
+  <meta name="keywords" content="javascript, experiment, gigglebox, sass, gradient">
+  <style type="text/css">
+    #canvas-basic {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+  </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // your code here
+        console.log(Granim);
+        console.log("test");
+
+        let granimInstance = new Granim({
+          element: '#canvas-basic',
+          direction: 'left-right',
+          isPausedWhenNotInView: true,
+          states : {
+              "default-state": {
+                  gradients: [
+                      ['#ff9966', '#ff5e62'],
+                      ['#00F260', '#0575E6'],
+                      ['#e1eec3', '#f05053']
+                  ]
+              }
+          }
+        });
+      });    
+    </script>
+</head>
+
+<body>
+  <h1>test</h1>
+  <!-- Create the main granim canvas-->
+  <canvas id="canvas-basic"></canvas>
+</body>
+
+</html>

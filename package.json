@@ -1,0 +1,28 @@
+{
+  "name": "story-book",
+  "version": "1.0.0",
+  "description": "short story js experiment gigglebox",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaskern/story-book.git"
+  },
+  "keywords": [
+    "gradient",
+    "granim.js",
+    "gigglebox",
+    "experiment"
+  ],
+  "author": "Lucas Kern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaskern/story-book/issues"
+  },
+  "homepage": "https://github.com/lucaskern/story-book#readme",
+  "dependencies": {
+    "granim": "^2.0.0"
+  }
+}
